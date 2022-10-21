@@ -60,6 +60,13 @@ function Vaccine() {
             validUntil: language === 'ru' ? 'Действителен до 05.02.2023' : 'Valid until 05.02.2023',
             passport: '03** ***184',
         },
+        '793e2a58-13d9-7b96-861f-5dq65sdl234': {
+            certificateId: '1000 5784 4739 3659',
+            name: language === 'ru' ? 'З*** С*** И***' : 'Z*** S*** I***',
+            dateOfBirth: '12.12.1993',
+            validUntil: language === 'ru' ? 'Действителен до 27.08.2023' : 'Valid until 27.08.2023',
+            passport: '03** ***141',
+        },
     }
 
     if (!Object.keys(_data).includes(params.id)) return null;

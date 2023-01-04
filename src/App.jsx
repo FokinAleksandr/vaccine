@@ -57,7 +57,7 @@ function Vaccine() {
             certificateId: '1000 5843 5836 1098',
             name: language === 'ru' ? 'З*** А*** В***' : 'Z*** A*** V***',
             dateOfBirth: '27.07.1996',
-            validUntil: language === 'ru' ? 'Действителен до 05.02.2023' : 'Valid until 05.02.2023',
+            validUntil: language === 'ru' ? 'Действителен до 05.04.2023' : 'Valid until 05.04.2023',
             passport: '03** ***184',
         },
         '793e2a58-13d9-7b96-861f-5dq65sdl234': {
